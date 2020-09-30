@@ -103,7 +103,7 @@ function draw() {
   imageMode(CENTER)
   image(polygonImg,polygon.position.x,polygon.position.y,40,40);
 
-  slinghot1.display();
+  slingshot1.display();
 }
 function mouseDragged(){
   Matter.Body.setPosition(this.polygon,{x:mouseX,y:mouseY});
